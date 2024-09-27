@@ -7,4 +7,4 @@
 Rajashekharvn/Rajashekharvn is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-fun fact I'm engineering
+fun fact I'm an engineering student
