@@ -31,3 +31,8 @@
 </a>
 </p>
 </p>
+<img
+  src="https://raw.githubusercontent.com/Rajashekharvn/Rajashekharvn/output/github-contribution-grid-snake.svg"
+  alt="GitHub contribution snake animation"
+  style={{ maxWidth: "100%", height: "auto" }}
+/>
