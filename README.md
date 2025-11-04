@@ -51,7 +51,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Rajashekharvn&show_icons=true&theme=radical" alt="GitHub stats" height="150" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Rajashekharvn&theme=radical&hide_border=false" alt="GitHub Streak" height="150" />
+  <img src="https://streak-stats.demolab.com?user=Rajashekharvn&theme=radical&hide_border=false"  alt="GitHub Streak" height="150" />
 </p>
 
 <p align="center">
