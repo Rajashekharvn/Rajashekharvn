@@ -13,17 +13,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # ✅ Generate the snake SVG with purple blocks and purple snake
-      - name: Generate Snake Animation (Purple Theme)
+      # ✅ Generate the snake SVG with brighter purple tones
+      - name: Generate Snake Animation (Bright Purple Theme)
         uses: Platane/snk@v3
         with:
           github_user_name: Rajashekharvn
-          # 👇 custom output URLs with custom palette & colors
+          # 👇 custom output URLs with bright purple palette
           outputs: |
             dist/github-contribution-grid-snake.svg?palette=github-purple&color_snake=#c084f5
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#c084f5
-          # 👇 optional extra colors for dots (gradient of purple tones)
-          color_dots: "#ede9fe,#d8b4fe,#c084f5,#a855f7,#7e22ce"
+          # 👇 brighter and more vivid purple/lavender gradient for dots
+          color_dots: "#f5e1ff,#e1b5ff,#ce7aff,#b44cff,#9b1dff"
 
       # ✅ Push generated files to the output branch
       - name: Push Snake Animation to Output Branch
