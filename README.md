@@ -1,5 +1,3 @@
-![Rajashekhar's GitHub stats](https://github-readme-stats.vercel.app/api?username=Rajashekharvn&show_icons=true&theme=radical)
-
 
 
 <h1 align="center">Hi 👋, I'm <span style="color:#c084f5;">Rajashekhar V N</span></h1>
