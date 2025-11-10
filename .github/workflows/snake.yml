@@ -11,32 +11,41 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      # Generate the snake SVG (neon purple + bright greens)
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Generate the snake SVGs only (no GIF/MP4 outputs)
       - name: Generate Snake Animation (Bright Neon Green + Purple Theme)
         uses: Platane/snk@v3
         with:
           github_user_name: Rajashekharvn
+          # Only SVG outputs included — no GIF/MP4 to avoid playbar UI
           outputs: |
             dist/github-contribution-grid-snake.svg?palette=github-purple&color_snake=#bb00ff
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#bb00ff
+          # Bright purple + neon greens for dots
           color_dots: "#f9e0ff,#f0b3ff,#e066ff,#39ff14,#66ff66"
 
-      # Add a glow aura to neon green dots by injecting an SVG filter and applying it
+      # Add a glow aura to the bright green dots in each SVG
       - name: Add glow aura to green dots
         run: |
           set -euo pipefail
+
+          # Ensure dist exists
+          if [ ! -d dist ]; then
+            echo "dist directory not found — nothing to postprocess."
+            exit 0
+          fi
 
           # SVG filter definition (Gaussian blur + merge for glow)
           read -r -d '' GLOW_DEF <<'EOF' || true
           <defs>
             <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-              <!-- increase stdDeviation for a wider/glowrier aura -->
+              <!-- Wider glow: increase stdDeviation if you want stronger glow -->
               <feGaussianBlur stdDeviation="4" result="coloredBlur" />
-              <!-- optionally intensify glow by adding a color flood (uncomment if needed) -->
-              <!-- <feFlood flood-color="#39ff14" flood-opacity="0.6" result="flood"/> -->
-              <!-- <feComposite in="flood" in2="coloredBlur" operator="in" result="floodBlur"/> -->
               <feMerge>
                 <feMergeNode in="coloredBlur" />
                 <feMergeNode in="SourceGraphic" />
@@ -45,27 +54,35 @@ jobs:
           </defs>
 EOF
 
-          # Apply to every SVG output file
           for f in dist/*.svg; do
             [ -f "$f" ] || continue
 
-            # insert the defs immediately after the opening <svg ...> tag if not already present
+            # Insert defs after the opening <svg ...> tag if glow not already present
             if ! grep -q 'id="glow"' "$f"; then
-              # Insert GLOW_DEF after the first line that contains "<svg"
-              awk -v glow="$GLOW_DEF" 'NR==1 && /<svg/ { print; print glow; next } { print }' "$f" > "$f.tmp" && mv "$f.tmp" "$f"
+              awk -v glow="$GLOW_DEF" '{
+                if (!inserted && match($0, /<svg[^>]*>/)) {
+                  print $0
+                  print glow
+                  inserted=1
+                } else {
+                  print $0
+                }
+              }' "$f" > "$f.tmp" && mv "$f.tmp" "$f"
             fi
 
-            # Attach the filter to the bright green fills used for dots.
-            # If your SVG uses different hexes, add them here.
+            # Attach the filter to our bright green fills used for dots.
+            # Update these hexes if your SVG uses different green hex codes.
             sed -i 's/fill="#39ff14"/fill="#39ff14" filter="url(#glow)"/g' "$f"
             sed -i 's/fill="#66ff66"/fill="#66ff66" filter="url(#glow)"/g' "$f"
 
-            # Some SVGs might use lowercase hex or no quotes — handle a few variants:
+            # Handle single-quote variants or lowercase hex just in case
             sed -i "s/fill='#39ff14'/fill='#39ff14' filter='url(#glow)'/g" "$f" || true
             sed -i "s/fill='#66ff66'/fill='#66ff66' filter='url(#glow)'/g" "$f" || true
+            sed -i 's/fill="#39ff14"/fill="#39ff14" filter="url(#glow)"/Ig' "$f" || true
+            sed -i 's/fill="#66ff66"/fill="#66ff66" filter="url(#glow)"/Ig' "$f" || true
           done
 
-      # Push generated files to the output branch
+      # Commit + push processed SVGs to output branch (GitHub Pages / static hosting)
       - name: Push Snake Animation to Output Branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
