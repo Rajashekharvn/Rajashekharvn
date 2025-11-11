@@ -43,6 +43,18 @@ jobs:
               -i "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'controls') and not(@style)]/@style" -t attr -n style -v "display:none" \
               -i "//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'player') and not(@style)]/@style" -t attr -n style -v "display:none" \
               -i "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'player') and not(@style)]/@style" -t attr -n style -v "display:none" \
+              -i "//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'play') and not(@style)]/@style" -t attr -n style -v "display:none" \
+              -i "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'play') and not(@style)]/@style" -t attr -n style -v "display:none" \
+              -i "//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'progress') and not(@style)]/@style" -t attr -n style -v "display:none" \
+              -i "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'progress') and not(@style)]/@style" -t attr -n style -v "display:none" \
+              -i "//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'bar') and not(@style)]/@style" -t attr -n style -v "display:none" \
+              -i "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'bar') and not(@style)]/@style" -t attr -n style -v "display:none" \
+              -i "//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'seek') and not(@style)]/@style" -t attr -n style -v "display:none" \
+              -i "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'seek') and not(@style)]/@style" -t attr -n style -v "display:none" \
+              -i "//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'timeline') and not(@style)]/@style" -t attr -n style -v "display:none" \
+              -i "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'timeline') and not(@style)]/@style" -t attr -n style -v "display:none" \
+              -i "//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'scrub') and not(@style)]/@style" -t attr -n style -v "display:none" \
+              -i "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'scrub') and not(@style)]/@style" -t attr -n style -v "display:none" \
               -i "//foreignObject[not(@style)]/@style" -t attr -n style -v "display:none" \
               "$f" > "$f.tmp1" && mv "$f.tmp1" "$f"
             xmlstarlet ed -P \
@@ -50,6 +62,18 @@ jobs:
               -u "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'controls')]/@style" -x "concat(@style,';display:none')" \
               -u "//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'player')]/@style" -x "concat(@style,';display:none')" \
               -u "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'player')]/@style" -x "concat(@style,';display:none')" \
+              -u "//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'play')]/@style" -x "concat(@style,';display:none')" \
+              -u "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'play')]/@style" -x "concat(@style,';display:none')" \
+              -u "//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'progress')]/@style" -x "concat(@style,';display:none')" \
+              -u "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'progress')]/@style" -x "concat(@style,';display:none')" \
+              -u "//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'bar')]/@style" -x "concat(@style,';display:none')" \
+              -u "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'bar')]/@style" -x "concat(@style,';display:none')" \
+              -u "//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'seek')]/@style" -x "concat(@style,';display:none')" \
+              -u "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'seek')]/@style" -x "concat(@style,';display:none')" \
+              -u "//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'timeline')]/@style" -x "concat(@style,';display:none')" \
+              -u "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'timeline')]/@style" -x "concat(@style,';display:none')" \
+              -u "//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'scrub')]/@style" -x "concat(@style,';display:none')" \
+              -u "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'scrub')]/@style" -x "concat(@style,';display:none')" \
               -u "//foreignObject/@style" -x "concat(@style,';display:none')" \
               "$f" > "$f.tmp2" && mv "$f.tmp2" "$f" || true
           done
@@ -71,7 +95,7 @@ jobs:
               </feMerge>
             </filter>
           </defs>
-EOF
+          EOF
           for f in dist/*.svg; do
             [ -f "$f" ] || continue
             if ! grep -q 'id="glow"' "$f"; then
@@ -100,3 +124,4 @@ EOF
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+YAML
