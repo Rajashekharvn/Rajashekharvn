@@ -2,7 +2,7 @@ name: Generate GitHub Contribution Snake 🐍
 
 on:
   schedule:
-    - cron: '0 0 * * *'     # Runs every day at midnight
+    - cron: '0 0 * * *'
   workflow_dispatch:
   push:
     branches:
@@ -17,55 +17,34 @@ jobs:
         with:
           fetch-depth: 0
 
-      # Generate the snake SVGs only (no GIF/MP4 outputs)
       - name: Generate Snake Animation (Bright Neon Green + Purple Theme)
         uses: Platane/snk@v3
         with:
           github_user_name: Rajashekharvn
-          # Only SVG outputs included — no GIF/MP4 to avoid playbar UI
           outputs: |
             dist/github-contribution-grid-snake.svg?palette=github-purple&color_snake=#bb00ff
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#bb00ff
-          # Bright purple + neon greens for dots
           color_dots: "#f9e0ff,#f0b3ff,#e066ff,#39ff14,#66ff66"
 
-      # ---------- HIDE (not delete) play / progress controls in SVGs ----------
       - name: Hide play / progress controls in SVGs (hide-not-delete)
         run: |
           set -euo pipefail
-
           if [ ! -d dist ]; then
             echo "dist directory not found — nothing to postprocess."
             exit 0
           fi
-
           apt-get update -y
           apt-get install -y xmlstarlet
-
           for f in dist/*.svg; do
             [ -f "$f" ] || continue
-            echo "Processing $f"
-            # backup
             cp -v "$f" "$f.bak"
-
-            # The plan:
-            # 1) Insert style="display:none" for matching nodes that do NOT already have a style attribute.
-            # 2) Append ;display:none to style attributes for matching nodes that already have a style attribute.
-            #
-            # Use translate(...) to perform case-insensitive matching for "controls" and "player".
-
             xmlstarlet ed -P \
-              # Insert style for id/class containing "controls" when there is no style attr yet
               -i "//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'controls') and not(@style)]/@style" -t attr -n style -v "display:none" \
               -i "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'controls') and not(@style)]/@style" -t attr -n style -v "display:none" \
-              # Insert style for id/class containing "player" when there is no style attr yet
               -i "//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'player') and not(@style)]/@style" -t attr -n style -v "display:none" \
               -i "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'player') and not(@style)]/@style" -t attr -n style -v "display:none" \
-              # Insert style for foreignObject nodes without style attribute
               -i "//foreignObject[not(@style)]/@style" -t attr -n style -v "display:none" \
               "$f" > "$f.tmp1" && mv "$f.tmp1" "$f"
-
-            # Now append to existing style attributes (for nodes that already had one).
             xmlstarlet ed -P \
               -u "//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'controls')]/@style" -x "concat(@style,';display:none')" \
               -u "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'controls')]/@style" -x "concat(@style,';display:none')" \
@@ -73,26 +52,18 @@ jobs:
               -u "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'player')]/@style" -x "concat(@style,';display:none')" \
               -u "//foreignObject/@style" -x "concat(@style,';display:none')" \
               "$f" > "$f.tmp2" && mv "$f.tmp2" "$f" || true
-
-            echo "Saved hidden controls in $f (backup at $f.bak)"
           done
 
-      # Add a glow aura to the bright green dots in each SVG
       - name: Add glow aura to green dots
         run: |
           set -euo pipefail
-
-          # Ensure dist exists
           if [ ! -d dist ]; then
             echo "dist directory not found — nothing to postprocess."
             exit 0
           fi
-
-          # SVG filter definition (Gaussian blur + merge for glow)
           read -r -d '' GLOW_DEF <<'EOF' || true
           <defs>
             <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-              <!-- Wider glow: increase stdDeviation if you want stronger glow -->
               <feGaussianBlur stdDeviation="4" result="coloredBlur" />
               <feMerge>
                 <feMergeNode in="coloredBlur" />
@@ -101,11 +72,8 @@ jobs:
             </filter>
           </defs>
 EOF
-
           for f in dist/*.svg; do
             [ -f "$f" ] || continue
-
-            # Insert defs after the opening <svg ...> tag if glow not already present
             if ! grep -q 'id="glow"' "$f"; then
               awk -v glow="$GLOW_DEF" '{
                 if (!inserted && match($0, /<svg[^>]*>/)) {
@@ -117,20 +85,14 @@ EOF
                 }
               }' "$f" > "$f.tmp" && mv "$f.tmp" "$f"
             fi
-
-            # Attach the filter to our bright green fills used for dots.
-            # Update these hexes if your SVG uses different green hex codes.
             sed -i 's/fill="#39ff14"/fill="#39ff14" filter="url(#glow)"/g' "$f"
             sed -i 's/fill="#66ff66"/fill="#66ff66" filter="url(#glow)"/g' "$f"
-
-            # Handle single-quote variants or lowercase hex just in case
             sed -i "s/fill='#39ff14'/fill='#39ff14' filter='url(#glow)'/g" "$f" || true
             sed -i "s/fill='#66ff66'/fill='#66ff66' filter='url(#glow)'/g" "$f" || true
             sed -i 's/fill="#39ff14"/fill="#39ff14" filter="url(#glow)"/Ig' "$f" || true
             sed -i 's/fill="#66ff66"/fill="#66ff66" filter="url(#glow)"/Ig' "$f" || true
           done
 
-      # Commit + push processed SVGs to output branch (GitHub Pages / static hosting)
       - name: Push Snake Animation to Output Branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
