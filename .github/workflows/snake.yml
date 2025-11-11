@@ -2,7 +2,7 @@ name: Generate GitHub Contribution Snake 🐍
 
 on:
   schedule:
-    - cron: "0 0 * * *"     # Runs every day at midnight
+    - cron: '0 0 * * *'     # Runs every day at midnight
   workflow_dispatch:
   push:
     branches:
@@ -29,6 +29,43 @@ jobs:
           # Bright purple + neon greens for dots
           color_dots: "#f9e0ff,#f0b3ff,#e066ff,#39ff14,#66ff66"
 
+      # ---------- NEW: remove play / progress controls from SVGs ----------
+      - name: Remove play / progress controls from SVGs
+        run: |
+          set -euo pipefail
+
+          if [ ! -d dist ]; then
+            echo "dist directory not found — nothing to postprocess."
+            exit 0
+          fi
+
+          apt-get update -y
+          apt-get install -y xmlstarlet
+
+          for f in dist/*.svg; do
+            [ -f "$f" ] || continue
+            echo "Processing $f"
+            # keep a backup just in case
+            cp -v "$f" "$f.bak"
+
+            # Remove nodes that commonly implement the player UI:
+            # - elements with id/class containing "controls" or "player"
+            # - foreignObject blocks (used for HTML-like controls)
+            # - script blocks (if the control is JS-based)  <-- optional, remove if you still need scripts
+            # - wide rects (width > 600px), which often are the progress bar
+            xmlstarlet ed -P \
+              -d "//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'controls')]" \
+              -d "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'controls')]" \
+              -d "//*[contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'player')]" \
+              -d "//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'player')]" \
+              -d "//foreignObject" \
+              -d "//script" \
+              -d "//rect[number(@width) > 600]" \
+              "$f" > "$f.tmp" && mv "$f.tmp" "$f" || (echo "xmlstarlet failed for $f" && exit 1)
+
+            echo "Saved cleaned $f (backup at $f.bak)"
+          done
+
       # Add a glow aura to the bright green dots in each SVG
       - name: Add glow aura to green dots
         run: |
@@ -52,7 +89,7 @@ jobs:
               </feMerge>
             </filter>
           </defs>
-EOF
+          EOF
 
           for f in dist/*.svg; do
             [ -f "$f" ] || continue
