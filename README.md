@@ -11,11 +11,8 @@
   <img src="https://c.tenor.com/QfX8rR1o5XIAAAAC/typewriter-typing.gif" width="420" alt="typewriter intro" />
 </div>
 
-<p align="center">
-  <span style="font-size:28px; background:linear-gradient(90deg,#64ffda,#00ff88); -webkit-background-clip:text; color:transparent; ">
-    Hi, I'm Rajashekhar N — Software Developer
-  </span>
-</p>
+### Hi, I'm Rajashekhar N — Software Developer
+
 
 
 
