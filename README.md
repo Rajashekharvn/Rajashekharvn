@@ -1,3 +1,6 @@
+
+<img src="https://visitor-badge.laobi.icu/badge?page_id=Rajashekharvn" alt="visitor badge"/>
+
 <!-- README.md for Rajashekharvn -->
 <!-- Dark / Gotham theme with neon-green highlights -->
 <div align="center">
