@@ -124,7 +124,7 @@
 
 ### 🐍 My Contribution Snake 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Rajashekharvn/Rajashekharvn/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake Animation" />
+  <img src="https://raw.githubusercontent.com/Rajashekharvn/Rajashekharvn/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake Animation" theme ="gotham" hide_border="true" bg_color="0d1117"/>
 </p>
 
 ---
