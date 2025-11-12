@@ -24,7 +24,7 @@
 
 ---
 
-<div align="center">
+<div align="left">
 
 ### 👨‍💻 Software Developer • Web Developer • Open Source Contributor
 
@@ -80,10 +80,6 @@
 <div align="center">
   <a href="https://github.com/Rajashekharvn/Portfolio" target="_blank">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rajashekharvn&repo=Portfolio&theme=gotham&hide_border=true" alt="Portfolio Repo" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/Rajashekharvn/Blockchain-App" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rajashekharvn&repo=Blockchain-App&theme=gotham&hide_border=true" alt="Blockchain App Repo" />
   </a>
 </div>
 
