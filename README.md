@@ -11,16 +11,17 @@
 
 # <div align="center"> Hi, I’m Rajashekhar N</div>
 
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Rajashekharvn&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="profile views" />
-</p>
-
 <div align="center">
   <a href="https://rajashekharvn.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/🌐%20Visit%20My%20Portfolio-64ffda?style=for-the-badge&logo=vercel&logoColor=000000" alt="Portfolio" />
   </a>
 </div>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Rajashekharvn&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="profile views" />
+</p>
+
+
 
 ---
 
