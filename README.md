@@ -1,8 +1,5 @@
 <!-- README.md for Rajashekharvn -->
 <!-- Dark / Gotham theme with neon-green highlights -->
-
-# <div align="center">👋 Hi, I’m Rajashekhar N</div>
-
 <div align="center">
   <!-- Waving GIF (small) -->
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="60" alt="waving hand" />
@@ -11,6 +8,8 @@
   <br/>
   <img src="https://c.tenor.com/QfX8rR1o5XIAAAAC/typewriter-typing.gif" width="420" alt="typewriter intro" />
 </div>
+# <div align="center">👋 Hi, I’m Rajashekhar N</div>
+
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Rajashekharvn&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="profile views" />
