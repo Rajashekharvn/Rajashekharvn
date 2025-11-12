@@ -1,93 +1,143 @@
+<!-- README.md for Rajashekharvn -->
+<!-- Dark / Gotham theme with neon-green highlights -->
 
+# <div align="center">👋 Hi, I’m Rajashekhar N</div>
 
-<h1 align="center">Hi 👋, I'm <span style="color:#c084f5;">Rajashekhar V N</span></h1>
-<h3 align="center">🚀 A Passionate Frontend Developer from India</h3>
+<div align="center">
+  <!-- Waving GIF (small) -->
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="60" alt="waving hand" />
 
----
+  <!-- Typewriter-style GIF (intro) -->
+  <br/>
+  <img src="https://c.tenor.com/QfX8rR1o5XIAAAAC/typewriter-typing.gif" width="420" alt="typewriter intro" />
+</div>
 
-### 🧠 About Me  
-- 💻 I love building **interactive web interfaces** and **full-stack applications**  
-- 🌱 Currently exploring **Next.js, TypeScript, and Cloud integration**  
-- ⚡ Fun fact: I debug faster with coffee ☕  
-- 🎯 Always learning, always growing!
-
----
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Rajashekharvn&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="dragonemperor9480" />
+  <img src="https://komarev.com/ghpvc/?username=Rajashekharvn&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="profile views" />
 </p>
 
-
-### 💼 Languages and Tools I Use
-
-<p align="center">
-  <a href="https://www.cprogramming.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="42" height="42"/></a>
-  <a href="https://www.php.net/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="42" height="42"/></a>
-  <a href="https://www.java.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="42" height="42"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="42" height="42"/></a>
-  <a href="https://www.python.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="42" height="42"/></a>
-  <a href="https://angular.io/" target="_blank"><img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular" width="42" height="42"/></a>
-  <a href="https://react.dev/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="42" height="42"/></a>
-  <a href="https://nodejs.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="NodeJS" width="42" height="42"/></a>
-  <a href="https://www.mongodb.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="42" height="42"/></a>
-  <a href="https://www.mysql.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="42" height="42"/></a>
-  <a href="https://aws.amazon.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="42" height="42"/></a>
-  <a href="https://www.djangoproject.com/" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django" width="42" height="42"/></a>
-  <a href="https://flask.palletsprojects.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="Flask" width="42" height="42"/></a>
-  <a href="https://git-scm.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="42" height="42"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="42" height="42"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="42" height="42"/></a>
-</p>
-
----
-
-### 🌐 Connect with Me
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/rajashekhar-naduvinahalli" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+<div align="center">
+  <a href="https://rajashekharvn.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐%20Visit%20My%20Portfolio-64ffda?style=for-the-badge&logo=vercel&logoColor=000000" alt="Portfolio" />
   </a>
-  <a href="https://www.instagram.com/Rajashekhar_v_n" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+</div>
+
+---
+
+<div align="center">
+
+### 👨‍💻 Software Developer • Web Developer • Open Source Contributor
+
+- 💡 Building scalable, maintainable web apps with modern stacks  
+- 🌐 Frontend: React.js, Next.js — Backend: Node.js, Express, REST & GraphQL  
+- ☁️ Learning/using Cloud & DevOps: Docker, Vercel, AWS basics  
+- 🔗 Languages: JavaScript, Java, C, HTML, CSS  
+- ⚡ Passionate about open-source and developer tooling
+
+</div>
+
+---
+
+## 🛠️ Tech Stack
+
+**Languages & Runtimes:**  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+**Frameworks & Tools:**  
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+**Dev & Cloud:**  
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Rajashekharvn&show_icons=true&theme=gotham&hide_border=true&bg_color=0d1117&title_color=64ffda&icon_color=64ffda&text_color=ffffff" alt="GitHub Stats" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Rajashekharvn&theme=gotham&hide_border=true&background=0d1117&ring=64ffda&fire=64ffda&currStreakLabel=64ffda" alt="GitHub Streak" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajashekharvn&theme=gotham&layout=compact&hide_border=true&bg_color=0d1117&title_color=64ffda&text_color=ffffff" alt="Top Languages" />
+</div>
+
+---
+
+## 💼 Featured Projects
+
+<div align="center">
+  <a href="https://github.com/Rajashekharvn/Portfolio" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rajashekharvn&repo=Portfolio&theme=gotham&hide_border=true" alt="Portfolio Repo" />
   </a>
-</p>
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Rajashekharvn&show_icons=true&theme=radical" alt="GitHub stats" height="150" />
-
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajashekharvn&layout=compact&theme=radical" alt="Top Languages" height="150" />
-</p>
-
----
-
-### 🏆 GitHub Achievements
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Rajashekharvn&theme=radical&no-bg=true&no-frame=true&row=1&column=6" alt="Trophies" />
-</p>
-
----
-
-### ☕ Support Me
-<p align="center">
-  <a href="https://www.buymeacoffee.com/rajashekharvn" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="180" alt="Buy Me A Coffee" />
+  &nbsp;
+  <a href="https://github.com/Rajashekharvn/Blockchain-App" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rajashekharvn&repo=Blockchain-App&theme=gotham&hide_border=true" alt="Blockchain App Repo" />
   </a>
-</p>
+</div>
 
 ---
 
-### 🐍 My Contribution Snake (Animated)
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Rajashekharvn/Rajashekharvn/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake Animation" />
-</p>
+## 🎓 Certifications & Learning
+
+- Full Stack Web Development — Coursera  
+- JavaScript Algorithms & Data Structures — freeCodeCamp  
+- React & Frontend Development — Udemy  
+- Git & GitHub Mastery — LinkedIn Learning  
+- Node.js Backend Development — Scaler
 
 ---
 
-<h3 align="center">💜 Thanks for visiting my profile!</h3>
+## 📈 Activity
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rajashekharvn&theme=gotham&hide_border=true&bg_color=0d1117&title_color=64ffda&line=64ffda&point=64ffda" alt="Contribution Graph" />
+</div>
+
+---
+
+## 🌐 Connect
+
+<div align="center">
+  <a href="https://linkedin.com/in/rajashekhar-naduvinahalli" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="mailto:raju.naduvinahalli@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Rajashekharvn" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="snake" />
+</div>
+
+---
+
+### ✨ Motto
+> "Code. Create. Contribute." — The best way to predict the future is to create it, one commit at a time.
+
+---
+
+### 🔧 Notes & Tips
+- The animated GIFs are externally hosted (Giphy / Tenor). If you prefer self-hosted assets, I can replace them with images stored in your repo (e.g., `assets/wave.gif`) and update the links.  
+- To hide any of the GitHub stats cards, remove the corresponding `<img>` lines.  
+- If you want a different typewriter/wave GIF, tell me and I’ll swap it for one you like.
+
