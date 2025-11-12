@@ -141,9 +141,3 @@
 <!--LAST_UPDATED-->Last updated: 2025-11-12<!--END_LAST_UPDATED-->
 
 ---
-
-### 🔧 Notes & Tips
-- The animated GIFs are externally hosted (Giphy / Tenor). If you prefer self-hosted assets, I can replace them with images stored in your repo (e.g., `assets/wave.gif`) and update the links.  
-- To hide any of the GitHub stats cards, remove the corresponding `<img>` lines.  
-- If you want a different typewriter/wave GIF, tell me and I’ll swap it for one you like.
-
