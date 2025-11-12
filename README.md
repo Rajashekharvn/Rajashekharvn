@@ -9,19 +9,17 @@
   <img src="https://c.tenor.com/QfX8rR1o5XIAAAAC/typewriter-typing.gif" width="420" alt="typewriter intro" />
 </div>
 
-<p align="center">
+<p align="center" style = {@keyframes glow {
+  0% { filter: drop-shadow(0 0 0px rgba(100,255,218,0.0)); }
+  50% { filter: drop-shadow(0 0 6px rgba(100,255,218,0.5)); }
+  100% { filter: drop-shadow(0 0 0px rgba(100,255,218,0.0)); }
+}}>
   <span style="font-size:28px; background:linear-gradient(90deg,#64ffda,#00ff88); -webkit-background-clip:text; color:transparent; animation: glow 2s linear infinite;">
     Hi, I'm Rajashekhar N — Software Developer
   </span>
 </p>
 
-<style>
-@keyframes glow {
-  0% { filter: drop-shadow(0 0 0px rgba(100,255,218,0.0)); }
-  50% { filter: drop-shadow(0 0 6px rgba(100,255,218,0.5)); }
-  100% { filter: drop-shadow(0 0 0px rgba(100,255,218,0.0)); }
-}
-</style>
+
 
 
 <div align="center">
