@@ -122,9 +122,10 @@
 
 ---
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="snake" />
-</div>
+### 🐍 My Contribution Snake 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Rajashekharvn/Rajashekharvn/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake Animation" />
+</p>
 
 ---
 
