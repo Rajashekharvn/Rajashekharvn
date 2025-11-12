@@ -12,6 +12,10 @@
 - 🎯 Always learning, always growing!
 
 ---
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=dragonemperor9480&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="dragonemperor9480" />
+</p>
+
 
 ### 💼 Languages and Tools I Use
 
