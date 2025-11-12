@@ -8,7 +8,8 @@
   <br/>
   <img src="https://c.tenor.com/QfX8rR1o5XIAAAAC/typewriter-typing.gif" width="420" alt="typewriter intro" />
 </div>
-# <div align="center">👋 Hi, I’m Rajashekhar N</div>
+
+# <div align="center"> Hi, I’m Rajashekhar N</div>
 
 
 <p align="center">
