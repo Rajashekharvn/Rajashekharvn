@@ -1,0 +1,23 @@
+name: Update README timestamp
+on:
+  schedule:
+    - cron: '0 0 * * *' # daily at 00:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update last-updated
+        run: |
+          DATE="$(date -u +"%Y-%m-%d")"
+          # replace placeholder <!--LAST_UPDATED--> in README.md
+          perl -0777 -pe "s/<!--LAST_UPDATED-->.*<!--END_LAST_UPDATED-->/<!--LAST_UPDATED-->Last updated: $DATE<!--END_LAST_UPDATED-->/s" -i README.md
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update README last-updated" || echo "no changes to commit"
+          git push
