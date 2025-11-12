@@ -12,7 +12,7 @@
 </div>
 
 <p align="center">
-  <span style="font-size:28px; background:linear-gradient(90deg,#64ffda,#00ff88); -webkit-background-clip:text; color:transparent; animation: glow 2s linear infinite;">
+  <span style="font-size:28px; background:linear-gradient(90deg,#64ffda,#00ff88); -webkit-background-clip:text; color:transparent; ">
     Hi, I'm Rajashekhar N — Software Developer
   </span>
 </p>
