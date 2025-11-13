@@ -11,7 +11,7 @@
   <img src="https://c.tenor.com/QfX8rR1o5XIAAAAC/typewriter-typing.gif" width="420" alt="typewriter intro" />
 </div>
 
-<div align="center"> Hi, I'm Rajashekhar N — Software Developer </div>
+<div align="center" font-size = "30px"> Hi, I'm Rajashekhar N — Software Developer </div>
 
 
 
