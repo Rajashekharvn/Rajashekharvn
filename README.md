@@ -1,145 +1,162 @@
-<!-- Enhanced README.md for Rajashekharvn -->
-
-<!-- ========================= -->
-<!-- 🔥 CUSTOM ANIMATED BANNER -->
-<!-- ========================= -->
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=32&duration=3000&color=64FFDA&center=true&vCenter=true&width=900&lines=Rajashekhar+N;Software+Developer;Web+Developer;Open+Source+Contributor;Building+Cool+Things+on+the+Internet+🚀" alt="Animated banner" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="60" alt="Hi" />
-</div>
-
-# <div align="center">Hi, I'm <span style="color:#64ffda;">Rajashekhar N</span></div>
-
-<p align="center">
-  <a href="https://rajashekharvn.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/🌐%20Portfolio-64ffda?style=for-the-badge&logo=vercel&logoColor=000000" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Rajashekharvn&label=Profile%20Views&color=64ffda&style=for-the-badge" />
-</p>
-
----
-
-## 👨‍💻 About Me
-
-I'm a dedicated developer focused on crafting clean, scalable, and efficient solutions for the web.
-
-- Building modern UIs with **React.js**, **Next.js**, **Tailwind**
-- Backend development with **Node.js**, **Express**, REST & GraphQL  
-- Exploring DevOps & Cloud deployments  
-- Passionate about open-source and developer tooling  
-
----
-
-# ⚡ Animated Tech Stack (SVG Animated Icons)
+<!-- Hacker-theme README.md for Rajashekharvn -->
 
 <div align="center">
 
-<!-- JavaScript -->
-<img src="https://skillicons.dev/icons?i=js&theme=light" width="60" />
+<!-- Terminal-style animated banner -->
 
-<!-- React -->
-<img src="https://skillicons.dev/icons?i=react&theme=light" width="60" />
-
-<!-- Next.js -->
-<img src="https://skillicons.dev/icons?i=nextjs&theme=light" width="60" />
-
-<!-- Node.js -->
-<img src="https://skillicons.dev/icons?i=nodejs&theme=light" width="60" />
-
-<!-- Express -->
-<img src="https://skillicons.dev/icons?i=express&theme=light" width="60" />
-
-<!-- Tailwind -->
-<img src="https://skillicons.dev/icons?i=tailwind&theme=light" width="60" />
-
-<!-- Java -->
-<img src="https://skillicons.dev/icons?i=java&theme=light" width="60" />
-
-<!-- Linux -->
-<img src="https://skillicons.dev/icons?i=linux&theme=light" width="60" />
-
-<!-- Docker -->
-<img src="https://skillicons.dev/icons?i=docker&theme=light" width="60" />
+<img src="https://readme-typing-svg.herokuapp.com?size=28&duration=3000&color=00ff6a&center=true&vCenter=true&width=900&lines=RAJASHEKHAR+N+%7C+Software+Developer;Hacker-Theme+Portfolio;Code.+Create.+Contribute." alt="Animated banner" />
 
 </div>
 
 ---
 
-# 📘 Skills Matrix / Breakdown
+```text
+┌──────────────────────────────────────────────────────────────┐
+│  ██████╗  █████╗ ███████╗ █████╗ ███████╗ ███████╗ ██████╗   │
+│  ██╔══██╗██╔══██╗██╔════╝██╔══██╗██╔════╝ ██╔════╝██╔═══██╗  │
+│  ██████╔╝███████║███████╗███████║█████╗   █████╗  ██║   ██║  │
+│  ██╔═══╝ ██╔══██║╚════██║██╔══██║██╔══╝   ██╔══╝  ██║   ██║  │
+│  ██║     ██║  ██║███████║██║  ██║███████╗ ███████╗╚██████╔╝  │
+│  ╚═╝     ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝ ╚══════╝ ╚═════╝   │
+└──────────────────────────────────────────────────────────────┘
 
-| Area | Technologies | Proficiency |
-|------|--------------|-------------|
-| **Frontend Development** | React.js, Next.js, Tailwind CSS, HTML, CSS | ⭐⭐⭐⭐☆ |
-| **Backend Development** | Node.js, Express.js, REST APIs, GraphQL | ⭐⭐⭐⭐☆ |
-| **Programming Languages** | JavaScript, Java, C | ⭐⭐⭐⭐☆ |
-| **DevOps / Cloud** | Docker, Linux, Vercel, GitHub Actions | ⭐⭐⭐☆☆ |
-| **Tools** | Git, GitHub, VS Code | ⭐⭐⭐⭐⭐ |
-| **Soft Skills** | Communication, Problem-solving, Debugging | ⭐⭐⭐⭐⭐ |
+» Theme: hacker / neon-green on dark
+» Last updated: 2025-11-19
+```
 
 ---
 
-# 🏆 GitHub Trophies
+## 👋 Quick Intro (terminal-style)
+
+> `raj@workstation:~$ whoami`
+
+**Rajashekhar N — Software Developer · Web · OSS**
+
+I build high-impact web apps with clean code, good tests, and pragmatic engineering.
+
+---
+
+## 🔒 Hacker-Theme Features Included
+
+* Custom animated terminal-style banner (neon-green)
+* Animated tech stack icons (compact SVG icons)
+* Skills matrix / breakdown table
+* GitHub trophies & profile stats
+* Terminal snippets, shortcuts, and "setup" section for devs
+
+---
+
+## ⚙️ Animated Tech Stack (icons)
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Rajashekharvn&theme=algolia&no-frame=true&margin-w=15" />
+
+<img src="https://skillicons.dev/icons?i=js,react,nextjs,nodejs,express,tailwind,java,docker,linux" alt="tech-icons" />
+
+</div>
+
+> These icons are SVG-based and load as compact line-style icons — they pair well with a hacker/neon theme.
+
+---
+
+## 🧭 Skills Matrix / Breakdown
+
+| Domain        | Technologies                           | Proficiency (★ = 1) |
+| ------------- | -------------------------------------- | ------------------: |
+| Frontend      | React.js, Next.js, Tailwind, HTML, CSS |               ★★★★☆ |
+| Backend       | Node.js, Express, REST, GraphQL        |               ★★★★☆ |
+| Languages     | JavaScript (ES6+), Java, C             |               ★★★★☆ |
+| DevOps        | Docker, Vercel, GitHub Actions, Linux  |               ★★★☆☆ |
+| Tooling       | Git, VS Code, ESLint, Prettier         |               ★★★★★ |
+| Collaboration | Code reviews, debugging, documentation |               ★★★★★ |
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Rajashekharvn&theme=algolia&no-frame=true&margin-w=15" alt="trophies" />
 </div>
 
 ---
 
-## 📊 GitHub Insights
+## 📊 GitHub Insights (dark cards)
 
 <div align="center">
-
-  <img src="https://github-readme-stats.vercel.app/api?username=Rajashekharvn&show_icons=true&theme=gotham&hide_border=true&bg_color=0d1117&title_color=64ffda&icon_color=64ffda&text_color=ffffff" height="160" />
-
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Rajashekharvn&theme=gotham&hide_border=true&background=0d1117&ring=64ffda&fire=64ffda&currStreakLabel=64ffda" height="160" />
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajashekharvn&theme=gotham&layout=compact&hide_border=true&bg_color=0d1117&title_color=64ffda&text_color=ffffff" />
-
+  <img src="https://github-readme-stats.vercel.app/api?username=Rajashekharvn&show_icons=true&theme=dark-green&hide_border=true&bg_color=0b0f12&title_color=00ff6a&icon_color=00ff6a&text_color=9aa6a6" alt="stats" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Rajashekharvn&theme=dark-green&hide_border=true&background=0b0f12&ring=00ff6a&fire=00ff6a&currStreakLabel=00ff6a" alt="streak" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajashekharvn&theme=dark-green&layout=compact&hide_border=true&bg_color=0b0f12&title_color=00ff6a&text_color=9aa6a6" alt="top langs" />
 </div>
 
 ---
 
-## 🌐 Connect With Me
+## 🛠 Featured Projects (quick links)
+
+> `raj@workstation:~$ ls ~/projects`
+
+* **Portfolio** — `https://github.com/Rajashekharvn/Portfolio` — personal site (React, Bootstrap, animations)
+* **(Add more repos here)** — I can format a compact project grid with screenshots if you want.
+
+---
+
+## 🧩 Dev Setup (collapse for readers)
+
+<details>
+<summary>📦 Quick dev setup (click to expand)</summary>
+
+```bash
+# clone and start (example)
+git clone https://github.com/Rajashekharvn/Portfolio.git
+cd Portfolio
+npm install
+npm run dev
+```
+
+Notes:
+
+* I use Node 18+ locally
+* Build & deploy target: Vercel (static + serverless functions)
+
+</details>
+
+---
+
+## 🎛️ Terminal Snippets (useful commands)
+
+```bash
+# check node version
+node -v
+
+# run linter
+npm run lint
+
+# run tests
+npm test
+```
+
+---
+
+## ✉️ Connect
 
 <div align="center">
-
-  <a href="https://linkedin.com/in/rajashekhar-naduvinahalli" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-
-  <a href="mailto:raju.naduvinahalli@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-d14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-
-  <a href="https://github.com/Rajashekharvn" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-
+  <a href="https://linkedin.com/in/rajashekhar-naduvinahalli" target="_blank">LinkedIn</a> •
+  <a href="mailto:raju.naduvinahalli@gmail.com">Email</a> •
+  <a href="https://github.com/Rajashekharvn" target="_blank">GitHub</a>
 </div>
 
 ---
 
-## 🐍 Contribution Snake
+## 🐍 Contribution Snake (hacker look)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Rajashekharvn/Rajashekharvn/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/Rajashekharvn/Rajashekharvn/output/github-contribution-grid-snake.svg" alt="contribution-snake" />
 </div>
 
 ---
 
 ## ✨ Motto
 
-> "Code. Create. Contribute."  
-> Build the future one commit at a time.
+> "Code. Create. Contribute." — Build the future one commit at a time.
 
 <!--LAST_UPDATED-->Last updated: 2025-11-19<!--END_LAST_UPDATED-->
