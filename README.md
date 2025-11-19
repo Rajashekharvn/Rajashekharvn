@@ -13,9 +13,7 @@
 <!-- Dark / Gotham theme with neon-green highlights -->
 
 <div align="center">
-  <!-- Waving GIF (small) -->
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="60" alt="waving hand" />
-
+  
   <!-- Typewriter-style GIF (intro) -->
 
   <br/>
@@ -24,9 +22,6 @@
 <!-- Enhanced README.md for Rajashekharvn -->
 
 <div align="center">
-
-  <!-- Greeting GIF -->
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="60" alt="Hi" />
 
   <!-- Typewriter Intro GIF -->
   <br/>
