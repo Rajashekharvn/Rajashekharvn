@@ -1,14 +1,12 @@
 <!-- Hacker-theme README.md for Rajashekharvn -->
 
-
+# <div align="center">Hi, I'm <span style="color:#64ffda;">Rajashekhar N</span> — Software Developer 🚀</div>
 
 <!-- Terminal-style animated banner -->
 <div align = "center">
 <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=3000&color=00ff6a&center=true&vCenter=true&width=900&lines=RAJASHEKHAR+N+%7C+Software+Developer;Hacker-Theme+Portfolio;Code.+Create.+Contribute." alt="Animated banner" />
 </div>
 
-
-# <div align="center">Hi, I'm <span style="color:#64ffda;">Rajashekhar N</span> — Software Developer 🚀</div>
 
 <p align="center">
   <a href="https://rajashekharvn.vercel.app/" target="_blank">
