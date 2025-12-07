@@ -25,12 +25,9 @@
 ## 📋 Table of Contents
 
 - [About Me](#-about-me)
-- [Portfolio Features](#-portfolio-features)
 - [Tech Stack](#️-tech-stack--tools)
 - [Getting Started](#-getting-started)
-- [Project Structure](#-project-structure)
 - [Environment Variables](#-environment-variables)
-- [Deployment](#-deployment)
 - [GitHub Statistics](#-github-statistics)
 - [Featured Projects](#-featured-projects)
 - [Troubleshooting](#-troubleshooting)
