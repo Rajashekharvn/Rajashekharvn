@@ -184,9 +184,7 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajashekharv
 
 <div align="center">
 
-![GitHub Snake Light](https://raw.githubusercontent.com/Rajashekharvn/Rajashekharvn/output/github-snake.svg)
 ![GitHub Snake Dark](https://raw.githubusercontent.com/Rajashekharvn/Rajashekharvn/output/github-snake-dark.svg)
-
 
 </div>
 
