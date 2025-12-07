@@ -30,7 +30,6 @@
 - [Environment Variables](#-environment-variables)
 - [GitHub Statistics](#-github-statistics)
 - [Featured Projects](#-featured-projects)
-- [Troubleshooting](#-troubleshooting)
 - [Contributing](#-contributing)
 - [Connect With Me](#-connect-with-me)
 
