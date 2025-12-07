@@ -188,56 +188,6 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajashekharv
 
 </div>
 
----
-
-## 🔧 Troubleshooting
-
-### Common Issues
-
-#### Build Errors
-
-**Issue:** `Module not found` errors
-```bash
-# Solution: Clear cache and reinstall
-rm -rf node_modules package-lock.json
-npm install
-```
-
-**Issue:** `React version mismatch`
-```bash
-# Solution: Update React
-npm install react@latest react-dom@latest
-```
-
-#### Supabase Connection Issues
-
-**Issue:** `Invalid API key` or connection errors
-- Verify your `.env` file has correct Supabase credentials
-- Check if Supabase project is active
-- Ensure environment variables are set in deployment platform
-
-**Issue:** `Row Level Security` blocking queries
-- Check RLS policies in Supabase dashboard
-- Ensure public read policies are enabled for public tables
-
-#### Deployment Issues
-
-**Issue:** Environment variables not working in production
-- Add all `.env` variables to your hosting platform (Vercel/Netlify)
-- Redeploy after adding variables
-- Check variable names match exactly (including `REACT_APP_` prefix)
-
-**Issue:** 404 errors on page refresh
-- For Vercel: Add `vercel.json` with rewrites
-- For Netlify: Add `_redirects` file in public folder
-
-### Getting Help
-
-If you encounter issues:
-1. Check the [Issues](https://github.com/Rajashekharvn/Portfolio/issues) page
-2. Search for similar problems
-3. Create a new issue with detailed description
-4. Contact me via [email](mailto:raju.naduvinahalli@gmail.com)
 
 ---
 
