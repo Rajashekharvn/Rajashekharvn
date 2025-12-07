@@ -27,7 +27,6 @@
 - [About Me](#-about-me)
 - [Tech Stack](#️-tech-stack--tools)
 - [Getting Started](#-getting-started)
-- [Environment Variables](#-environment-variables)
 - [GitHub Statistics](#-github-statistics)
 - [Featured Projects](#-featured-projects)
 - [Contributing](#-contributing)
