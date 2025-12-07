@@ -108,16 +108,19 @@ const rajashekhar = {
 
 ## 📊 GitHub Statistics
 
+If you want a cleaner layout (2 rows):
+
+```html
 <div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Rajashekharvn&show_icons=true&theme=gotham&hide_border=true&bg_color=0d1117&title_color=64ffda&icon_color=64ffda&text_color=ffffff" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Rajashekharvn&theme=gotham&hide_border=true&background=0d1117" />
+</div>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Rajashekharvn&show_icons=true&theme=gotham&hide_border=true&bg_color=0d1117&title_color=64ffda&icon_color=64ffda&text_color=ffffff&count_private=true&include_all_commits=true" />
+<br/>
 
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Rajashekharvn&theme=gotham&hide_border=true&background=0d1117&ring=64ffda&fire=64ffda&currStreakLabel=64ffda" />
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajashekharvn&theme=gotham&layout=compact&hide_border=true&bg_color=0d1117&title_color=64ffda&text_color=ffffff&langs_count=8" />
-
-<img width="49%" src="https://github-contributor-stats.vercel.app/api?username=Rajashekharvn&theme=gotham&hide_border=true&bg_color=0d1117&title_color=64ffda&text_color=ffffff" />
-
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajashekharvn&theme=gotham&layout=compact&hide_border=true&bg_color=0d1117" />
+  <img width="49%" src="https://github-contributor-stats.vercel.app/api?username=Rajashekharvn&theme=gotham&hide_border=true&bg_color=0d1117" />
 </div>
 
 
