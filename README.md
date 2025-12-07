@@ -154,10 +154,10 @@ const rajashekhar = {
 
 <!-- Dark mode support for snake animation -->
 <picture>
-  <!-- <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rajashekharvn/Rajashekharvn/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rajashekharvn/Rajashekharvn/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rajashekharvn/Rajashekharvn/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Rajashekharvn/Rajashekharvn/output/github-contribution-grid-snake.svg" /> -->
-  ![snake animation](https://github.com/Rajashekharvn/Rajashekharvn/blob/output/github-contribution-grid-snake2.svg)
+  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Rajashekharvn/Rajashekharvn/output/github-contribution-grid-snake.svg" />
+  <!-- ![snake animation](https://github.com/Rajashekharvn/Rajashekharvn/blob/output/github-contribution-grid-snake2.svg) -->
 </picture>
 
 </div>
