@@ -184,12 +184,9 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajashekharv
 
 <div align="center">
 
-<!-- Dark mode support for snake animation -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rajashekharvn/Rajashekharvn/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rajashekharvn/Rajashekharvn/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Rajashekharvn/output/github-contribution-grid-snake.svg" />
-</picture>
+![GitHub Snake Light](https://raw.githubusercontent.com/Rajashekharvn/Rajashekharvn/output/github-snake.svg)
+![GitHub Snake Dark](https://raw.githubusercontent.com/Rajashekharvn/Rajashekharvn/output/github-snake-dark.svg)
+
 
 </div>
 
