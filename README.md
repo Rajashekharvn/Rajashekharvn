@@ -120,13 +120,7 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajashekharv
 
 </div>
 
----
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-![Trophy](https://github-profile-trophy.vercel.app/?username=Rajashekharvn&theme=dark_dimmed&no-frame=true&no-bg=true&column=7)
-</div>
 
 ---
 
