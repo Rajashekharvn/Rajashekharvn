@@ -1,9 +1,5 @@
 <!-- Enhanced Professional README for Rajashekharvn -->
-![Stats](https://github-readme-stats.vercel.app/api?username=Rajashekharvn&show_icons=true&theme=radical)
-## 🔥 GitHub Streak
-![GitHub Streak](https://github-readme-streak-stats.vercel.app/?user=Rajashekharvn&theme=radical)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Rajashekharvn&layout=compact&theme=radical)
 
 <div align="center">
 
@@ -129,9 +125,7 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajashekharv
 ## 🏆 GitHub Trophies
 
 <div align="center">
-
-![Trophy](https://github-profile-trophy.vercel.app/?username=Rajashekharvn&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15)
-
+![Trophy](https://github-profile-trophy.vercel.app/?username=Rajashekharvn&theme=dark_dimmed&no-frame=true&no-bg=true&column=7)
 </div>
 
 ---
