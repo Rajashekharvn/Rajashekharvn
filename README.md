@@ -1,110 +1,101 @@
-<!-- Enhanced Professional README for Rajashekharvn -->
+<!-- ========================= -->
+<!--   Rajashekhar N README   -->
+<!-- ========================= -->
 
 <div align="center">
 
-# 👋 Hi, I'm <span style="color:#64ffda;">Rajashekhar N</span>
+# Rajashekhar N
 
-### 🚀 Full Stack Developer | Open Source Enthusiast | Tech Explorer
+### Full Stack Engineer • Scalable Systems Builder • Open Source Contributor
 
-<!-- Terminal-style animated banner -->
-<img src="https://readme-typing-svg.herokuapp.com?size=24&duration=3000&color=64ffda&center=true&vCenter=true&width=800&lines=Full+Stack+Developer+%7C+Problem+Solver;Building+Scalable+Web+Applications;React+%7C+Node.js+%7C+Next.js+%7C+Supabase;Code.+Create.+Contribute.+%F0%9F%92%BB" alt="Animated banner" />
+<img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=64ffda&center=true&vCenter=true&width=750&lines=Building+Scalable+Production-Ready+Web+Apps;React+%7C+Next.js+%7C+Node.js+%7C+Java;Clean+Code+%7C+System+Design+%7C+Performance;Always+Learning+%F0%9F%9A%80" />
 
-<p>
-  <a href="https://rajashekharvn.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_Portfolio-Live-64ffda?style=for-the-badge&logo=vercel&logoColor=000000" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=Rajashekharvn&label=Profile%20Views&color=64ffda&style=for-the-badge" />
-  <img src="https://img.shields.io/github/followers/Rajashekharvn?label=Followers&style=for-the-badge&color=64ffda&logo=github" />
-  <img src="https://img.shields.io/github/stars/Rajashekharvn?label=Stars&style=for-the-badge&color=64ffda&logo=github" />
-</p>
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-64ffda?style=for-the-badge&logo=vercel&logoColor=black)](https://rajashekharvn.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rajashekhar-naduvinahalli)
+[![GitHub](https://img.shields.io/github/followers/Rajashekharvn?style=for-the-badge&color=64ffda&logo=github)](https://github.com/Rajashekharvn)
 
 </div>
 
 ---
 
-## 📋 Table of Contents
+# 👨‍💻 About Me
 
-- [About Me](#-about-me)
-- [Tech Stack](#️-tech-stack--tools)
-- [Getting Started](#-getting-started)
-- [GitHub Statistics](#-github-statistics)
-- [Featured Projects](#-featured-projects)
-- [Contributing](#-contributing)
-- [Connect With Me](#-connect-with-me)
+I’m a Full Stack Developer focused on building **scalable, maintainable, production-grade web applications**.
+
+I care deeply about:
+
+- Clean architecture & modular code
+- Performance optimization
+- Secure authentication & authorization
+- Developer experience & maintainability
+- Real-world system design
+
+I don’t just build features — I design systems that scale.
 
 ---
 
-## 👨‍💻 About Me
+# 🧠 Engineering Mindset
 
 ```javascript
-const rajashekhar = {
-    location: "India 🇮🇳",
-    role: "Full Stack Developer",
-    code: ["JavaScript", "Java", "C", "HTML", "CSS"],
-    technologies: {
-        frontend: ["React", "Next.js", "Tailwind CSS"],
-        backend: ["Node.js", "Express", "REST APIs", "GraphQL"],
-        database: ["Supabase", "MongoDB", "MySQL"],
-        tools: ["Git", "Docker", "Vercel", "Linux"],
-        currentFocus: "Building scalable web applications with modern tech"
-    },
-    architecture: ["SPA", "MVC", "Microservices", "Serverless"],
-    passion: "Turning ideas into reality through code ✨"
+const engineer = {
+  name: "Rajashekhar N",
+  location: "India",
+  role: "Full Stack Developer",
+  strengths: [
+    "System Design Thinking",
+    "Clean Code & Architecture",
+    "API Design",
+    "Authentication & Security",
+    "Performance Optimization"
+  ],
+  focus: "Building reliable, scalable web platforms",
 };
 ```
 
-### 🎯 What I Do
+---
 
-- 🔨 Build **scalable web applications** with modern JavaScript frameworks
-- 🎨 Craft **beautiful UI/UX** experiences using React.js, Next.js & Tailwind CSS
-- ⚙️ Develop **robust backend systems** with Node.js, Express & databases
-- ☁️ Explore **Cloud technologies**, DevOps & CI/CD workflows
-- 🌟 Contribute to **open-source** projects & tech communities
-- 📚 Constantly **learning** and staying updated with latest tech trends
+# 🛠 Tech Stack
+
+## Languages
+- JavaScript (ES6+)
+- Java
+- C
+- HTML5
+- CSS3
+
+## Frontend
+- React 18
+- Next.js (App Router)
+- Tailwind CSS
+- React Router
+- Responsive & Accessible UI
+
+## Backend
+- Node.js
+- Express.js
+- REST APIs
+- GraphQL
+- JWT Authentication
+- Role-Based Access Control
+
+## Databases
+- Supabase (PostgreSQL)
+- MongoDB
+- MySQL
+
+## DevOps & Tooling
+- Git & GitHub
+- GitHub Actions (CI/CD)
+- Docker
+- Vercel
+- Linux
+- VS Code
 
 ---
 
-
-
-## 🛠️ Tech Stack & Tools
-
-<div align="center">
-
-### Languages
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-### Backend & Database
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-### DevOps & Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-</div>
-
----
-
-
-## 📊 GitHub Statistics
+# 📊 GitHub Analytics
 
 <div align="center">
 
@@ -114,16 +105,42 @@ src="https://github-readme-stats.vercel.app/api?username=Rajashekharvn&show_icon
 <img width="49%"
 src="https://streak-stats.demolab.com?user=Rajashekharvn&theme=dark&hide_border=true" />
 
+<br/><br/>
+
 <img width="60%"
 src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajashekharvn&layout=compact&theme=dark&hide_border=true" />
 
 </div>
 
+---
 
+# 🚀 Featured Project
+
+## 🌟 Full Stack Portfolio Platform
+
+A production-ready full-stack portfolio with dynamic content management.
+
+### 🔧 Architecture Highlights
+- React 18 frontend
+- Supabase (PostgreSQL) backend
+- Secure admin authentication
+- Role-based content management
+- Dark/Light theme system
+- Optimized deployment on Vercel
+
+### 💡 Engineering Focus
+- Clean folder structure
+- Separation of concerns
+- Reusable UI components
+- Secure environment configuration
+- Performance-aware rendering
+
+👉 Repository:  
+https://github.com/Rajashekharvn/Portfolio
 
 ---
 
-## 📈 Contribution Graph
+# 📈 Contribution Activity
 
 <div align="center">
 
@@ -133,139 +150,54 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajashekharv
 
 ---
 
-## 💼 Featured Projects
+# 🎓 Certifications
 
-<div align="center">
-
-<a href="https://github.com/Rajashekharvn/Portfolio">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rajashekharvn&repo=Portfolio&theme=gotham&hide_border=true&bg_color=0d1117&title_color=64ffda&icon_color=64ffda&text_color=ffffff" />
-</a>
-
-### 🌟 Portfolio Highlights
-
-**Full-Stack React Portfolio** with Admin Panel
-- ⚡ React 18 + Supabase Backend
-- 🎨 Dark/Light Theme Toggle
-- 🔐 Secure Admin Authentication
-- 📝 Dynamic Content Management
-- 🚀 Deployed on Vercel
-
-</div>
+- Full Stack Web Development – Coursera
+- JavaScript Algorithms & Data Structures – freeCodeCamp
+- React & Frontend Development – Udemy
+- Git & GitHub Mastery – LinkedIn Learning
+- Node.js Backend Development – Scaler
 
 ---
 
-## 🎓 Certifications & Learning
+# 🤝 Open Source & Collaboration
 
-<div align="center">
+I’m open to:
 
-| Certification | Platform | Status |
-|--------------|----------|--------|
-| 📜 Full Stack Web Development | Coursera | ✅ Completed |
-| 📜 JavaScript Algorithms & Data Structures | freeCodeCamp | ✅ Completed |
-| 📜 React & Frontend Development | Udemy | ✅ Completed |
-| 📜 Git & GitHub Mastery | LinkedIn Learning | ✅ Completed |
-| 📜 Node.js Backend Development | Scaler | ✅ Completed |
+- Backend API development
+- Frontend architecture improvements
+- Performance optimization
+- Codebase refactoring
+- Clean architecture contributions
 
-</div>
+If you're building something impactful — let’s collaborate.
 
 ---
 
-## 🐍 Contribution Snake
+# 📬 Connect With Me
 
-<div align="center">
-
-![GitHub Snake Dark](https://raw.githubusercontent.com/Rajashekharvn/Rajashekharvn/output/github-snake-dark.svg)
-
-</div>
-
+- 🌐 Portfolio: https://rajashekharvn.vercel.app/
+- 💼 LinkedIn: https://linkedin.com/in/rajashekhar-naduvinahalli
+- 📧 Email: raju.naduvinahalli@gmail.com
+- 🐙 GitHub: https://github.com/Rajashekharvn
 
 ---
 
-## 🤝 Contributing
+# 🧭 Philosophy
 
-Contributions are welcome! Here's how you can help:
+> "Code is not just written — it is designed."
 
-1. **Fork the repository**
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. **Commit your changes**
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-4. **Push to the branch**
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-5. **Open a Pull Request**
-
-### Contribution Guidelines
-
-- Follow existing code style and conventions
-- Write clear commit messages
-- Add comments for complex logic
-- Test your changes thoroughly
-- Update documentation if needed
-
----
-
-## 📄 License
-
-This project is **open source** and available under the [MIT License](LICENSE).
-
-You are free to:
-- ✅ Use this project for personal or commercial purposes
-- ✅ Modify and customize as needed
-- ✅ Share and distribute
-
-**Attribution appreciated but not required!** ⭐
-
----
-
-## 🌐 Connect With Me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rajashekhar-naduvinahalli)
-[![Gmail](https://img.shields.io/badge/Gmail-Contact-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raju.naduvinahalli@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-64ffda?style=for-the-badge&logo=vercel&logoColor=000000)](https://rajashekharvn.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rajashekharvn)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Rajashekharvn)
-
-</div>
-
----
-
-## 💭 Quote of the Day
-
-<div align="center">
-
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
-
-</div>
-
----
-
-## ✨ Motto
-
-<div align="center">
-
-> ### "Code. Create. Contribute."
-> *Building the future one commit at a time* 🚀
-
-</div>
+I believe great software is:
+- Simple
+- Predictable
+- Testable
+- Scalable
+- Secure
 
 ---
 
 <div align="center">
 
-### 💡 *"The only way to do great work is to love what you do"*
-
-**Thanks for visiting! Feel free to explore my repositories and connect!** ⭐
-
-**If you like this project, please give it a ⭐ star!**
-
-<!--LAST_UPDATED-->Last updated: 2025-12-07<!--END_LAST_UPDATED-->
+### ⭐ If you find my work useful, consider giving a star.
 
 </div>
