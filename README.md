@@ -60,18 +60,12 @@ const engineer = {
 # 🛠 Tech Stack
 
 ## Languages
-- JavaScript (ES6+)
 - Java
-- C
-- HTML5
-- CSS3
 
 ## Frontend
 - React 18
 - Next.js (App Router)
 - Tailwind CSS
-- React Router
-- Responsive & Accessible UI
 
 ## Backend
 - Node.js
@@ -91,8 +85,6 @@ const engineer = {
 - GitHub Actions (CI/CD)
 - Docker
 - Vercel
-- Linux
-- VS Code
 
 ---
 
@@ -119,59 +111,8 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajashekharv
 
 ## 🌟 Full Stack Portfolio Platform
 
-A production-ready full-stack portfolio with dynamic content management.
-
-### 🔧 Architecture Highlights
-- React 18 frontend
-- Supabase (PostgreSQL) backend
-- Secure admin authentication
-- Role-based content management
-- Dark/Light theme system
-- Optimized deployment on Vercel
-
-### 💡 Engineering Focus
-- Clean folder structure
-- Separation of concerns
-- Reusable UI components
-- Secure environment configuration
-- Performance-aware rendering
-
 👉 Repository:  
 https://github.com/Rajashekharvn/Portfolio
-
----
-
-# 📈 Contribution Activity
-
-<div align="center">
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Rajashekharvn&theme=github-compact&hide_border=true&bg_color=0d1117&color=64ffda&line=64ffda&point=ffffff&area=true&area_color=64ffda)
-
-</div>
-
----
-
-# 🎓 Certifications
-
-- Full Stack Web Development – Coursera
-- JavaScript Algorithms & Data Structures – freeCodeCamp
-- React & Frontend Development – Udemy
-- Git & GitHub Mastery – LinkedIn Learning
-- Node.js Backend Development – Scaler
-
----
-
-# 🤝 Open Source & Collaboration
-
-I’m open to:
-
-- Backend API development
-- Frontend architecture improvements
-- Performance optimization
-- Codebase refactoring
-- Clean architecture contributions
-
-If you're building something impactful — let’s collaborate.
 
 ---
 
