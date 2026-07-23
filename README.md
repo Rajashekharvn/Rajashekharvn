@@ -25,17 +25,6 @@
 
 I’m a Full Stack Developer focused on building **scalable, maintainable, production-grade web applications**.
 
-I care deeply about:
-
-- Clean architecture & modular code
-- Performance optimization
-- Secure authentication & authorization
-- Developer experience & maintainability
-- Real-world system design
-
-I don’t just build features — I design systems that scale.
-
----
 
 # 🧠 Engineering Mindset
 
