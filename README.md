@@ -81,16 +81,12 @@ const engineer = {
 
 <div align="center">
 
-<img width="49%"
-src="https://github-readme-stats.vercel.app/api?username=Rajashekharvn&show_icons=true&theme=dark&hide_border=true" />
 
 <img width="49%"
 src="https://streak-stats.demolab.com?user=Rajashekharvn&theme=dark&hide_border=true" />
 
 <br/><br/>
 
-<img width="60%"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajashekharvn&layout=compact&theme=dark&hide_border=true" />
 
 </div>
 
