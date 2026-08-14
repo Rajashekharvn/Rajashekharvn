@@ -85,9 +85,6 @@ const engineer = {
 <img width="49%"
 src="https://streak-stats.demolab.com?user=Rajashekharvn&theme=dark&hide_border=true" />
 
-<br/><br/>
-
-
 </div>
 
 ---
